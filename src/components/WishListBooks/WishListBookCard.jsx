@@ -11,14 +11,16 @@ const WishListBookCard = ({ wishListCardData }) => {
                 <img className="w-[130px]" src={image} alt="" />
             </div>
             <div className="card-body">
-                <h2 className="card-title">{bookName}</h2>
-                <p className="text-sm pb-7">By: {author} </p>
+                <div className=" flex flex-col justify-start">
+                    <h2 className=" text-2xl">{bookName}</h2> 
+                    <p className="text-sm pb-7">By: {author} </p>
+                </div>
                 <div className="border-t border-b mb-2">
                     <p className="text-sm pb-4 pt-4" > <span className=" font-bold">Tags:</span> <span className="ml-16 text-[#23BE0A]">#{tags[0]}</span>   <span className="ml-20 mr-16 text-[#23BE0A]">#{tags[1]}</span> <span>Year of Publishing:  {yearOfPublishing}</span></p>
                 </div>
                 <div className="flex pb-6 ">
                     <p className="">Publisher: {publisherName}</p>
-                    <p className="mr-60">Page: {totalPages}</p>
+                    <p className="mr-20">Page: {totalPages}</p>
                 </div>
                 <div className="card-actions justify-between items-center">
                     <div className="bg-[#328EFF26] p-2 rounded-3xl"><p className="text-[#328EFF]">Category: {category}</p></div>
