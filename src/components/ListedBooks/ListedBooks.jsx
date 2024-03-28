@@ -42,10 +42,10 @@ const ListedBooks = () => {
             
 
             {/* books received by the click */}
-            <div role="tablist" className="tabs tabs-lifted tabs-lg w-[1180px] ">
+            <div role="tablist" className="tabs tabs-lifted tabs-lg xl:w-[1180px] ">
 
                 {/* Read tab */}
-                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Read Books" checked />
+                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Read" checked />
                 <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
                     <h1 className="text-xl font-bold pb-4">Your reading list is below: </h1>
                     <div>
@@ -59,7 +59,7 @@ const ListedBooks = () => {
                 </div>
                 
                 {/* WishLish tab */}
-                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Wishlist Books"  />
+                <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Wishlist"  />
                 
                 <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
                     <h1 className="text-xl font-bold pb-4">Your wishlist books are below: </h1>
