@@ -16,7 +16,7 @@ const BookList = () => {
     return (
         <div className="mt-20 border-t border-blue-400 rounded-xl p-8 pb-10">
             <h1 className="text-center text-4xl font-bold">Books</h1>
-            <div className="grid grid-cols-3 gap-5 max-w-screen-xl m-auto">
+            <div className="grid xl:grid-cols-3 gap-5 max-w-screen-xl m-auto">
                 {
                     data.slice(0, dataLength).map((item) => <Book key={item.bookId} book={item}></Book>)
                 }

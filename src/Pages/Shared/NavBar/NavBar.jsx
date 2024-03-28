@@ -10,7 +10,7 @@ function Navbar() {
     };
 
     return (
-        <div className="xl:flex xl:flex-row justify-around items-center border-b h-[80px] m-auto  max-w-screen-xl ">
+        <div className="xl:flex xl:flex-row flex flex-col justify-around items-center border-b xl:h-[80px] m-auto  max-w-screen-xl ">
             <div>
                 <Link to='/'>
                     <div className=" btn bg-blue-300 w-36 h- text-center rounded-xl pt-1">
@@ -32,10 +32,8 @@ function Navbar() {
                                     Home
                                 </button>
                             </Link>
-
                         </li>
                         <li>
-
                             <Link to="/listedBooks" >
                                 <button
                                     className={activeItem === 'About' ? 'active' : ''}
@@ -43,7 +41,6 @@ function Navbar() {
                                     Listed Books
                                 </button>
                             </Link>
-
                         </li>
                         <li>
                             <Link to="/chart">
