@@ -15,7 +15,7 @@ function Navbar() {
                 <Link to='/'>
                     <div className=" btn bg-blue-300 w-36 h- text-center rounded-xl pt-1">
                         <h1 className="text-2xl">
-                            <span className="text-red-500 text-4xl">B</span>ook<span className="text-red-500 text-4xl">V</span>ibe </h1>
+                            <span className="text-red-500 text-4xl">B</span>ook<span className="text-red-500 text-4xl">√</span>ibe </h1>
                         <h1></h1>
                     </div>
                 </Link>
