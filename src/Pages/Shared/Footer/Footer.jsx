@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 bg-primary text-primary-content mt-10">
+        <footer className="footer footer-center p-10 bg-slate-500 text-primary-content mt-10">
             <aside>
                 <Link to='/'>
                     <div className=" btn bg-blue-300 w-36 h- text-center rounded-xl pt-1">
@@ -14,7 +14,7 @@ const Footer = () => {
                 </Link>
                 
                 <p className="font-bold pt-10">
-                    ACME Industries Ltd. <br />Providing reliable reading experience since 1992
+                    Book Vibe Printing Inc. Ltd. <br />Providing reliable reading experience since 1992
                 </p>
                 <p>Copyright © 2024 - All right reserved</p>
             </aside>
