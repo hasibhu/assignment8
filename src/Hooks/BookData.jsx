@@ -8,7 +8,8 @@ const BookData = () => {
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);
-            const res = await fetch('../../public/data.json');
+            // const res = await fetch('../../public/data.json');
+            const res = await fetch('../data.json');
             const data = await res.json();
             setData(data);
             setLoading(false);

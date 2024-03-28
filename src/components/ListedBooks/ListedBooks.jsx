@@ -13,7 +13,7 @@ const ListedBooks = () => {
 
     return ( 
         
-        <div className='mt-10'>
+        <div className='mt-10 text-center max-w-screen-xl m-auto'>
             <div>
                 <div className="navbar bg-base-100">
                     <div className="navbar-start">
@@ -56,16 +56,8 @@ const ListedBooks = () => {
             </div>
             
 
-
-
-
-
-
-
-
-
             {/* books received by the click */}
-            <div role="tablist" className="tabs tabs-lifted tabs-lg">
+            <div role="tablist" className="tabs tabs-lifted tabs-lg w-[1180px] ">
 
                 {/* Read tab */}
                 <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Read Books" checked />

@@ -13,7 +13,7 @@ const Banner = () => {
                     
 
                     <div className="card-actions justify-start mt-5">
-                        <Link to='/books'>
+                        <Link to='/'>
                             <button className="btn btn-primary ">View The List</button>
                         </Link>
                     </div>

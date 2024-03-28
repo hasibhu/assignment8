@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const WishListBookCard = ({ wishListCardData }) => {
@@ -22,7 +23,11 @@ const WishListBookCard = ({ wishListCardData }) => {
                 <div className="card-actions justify-between items-center">
                     <div className="bg-[#328EFF26] p-2 rounded-3xl"><p className="text-[#328EFF]">Category: {category}</p></div>
                     <div className="bg-yellow-400 p-2 rounded-3xl"> <p>Rating: {rating}</p></div>
-                    <button className="btn btn-primary">View Details</button>
+                    {/* <button className="btn btn-primary">View Details</button> */}
+                    <Link to={`/book-details/${bookId}`}>
+                        <button className="btn btn-primary">View Details</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

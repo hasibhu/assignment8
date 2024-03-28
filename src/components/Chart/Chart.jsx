@@ -33,7 +33,7 @@ const CustomShapeBarChart = () => {
 
     return (
         <div className="flex flex-col justify-center items-center  max-w-screen-xl">
-            <h1>Chart</h1>
+            <h1 className='text-4xl mt-10 font-bold'>Chart</h1>
             <BarChart
                 width={990}
                 height={600}

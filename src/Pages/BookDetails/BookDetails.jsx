@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import BookData from "../../Hooks/BookData";
 import { useEffect } from "react";
@@ -18,7 +18,7 @@ const BookDetails = () => {
     const { data, loading } = BookData();
 
     const handleRead = () => {
-    //    console.log('clicked');
+       console.log('clicked');
         saveBookClicked(singleBookData);
             
     }

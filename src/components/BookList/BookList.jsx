@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BookData from "../../Hooks/BookData";
+// import Book from "../Book/Book";
 import Book from "../Book/Book";
 
 
@@ -8,7 +9,7 @@ import Book from "../Book/Book";
 const BookList = () => {
 
     const { data, loading } = BookData();
-    // console.log(data);
+    console.log(data);
 
     const [dataLength, setDataLength] = useState([6])
 

@@ -8,13 +8,7 @@ const getClickedBook = () => {
     }
     return [];
 }
-// import { toast, ToastContainer } from 'react-toastify';
-// const showToast = (message) => {
-//     toast.success(message);
-// };
-// <div>
-//     <ToastContainer />
-// </div>
+
 
 
 const saveBookClicked = clickedBook => {
@@ -28,6 +22,7 @@ const saveBookClicked = clickedBook => {
         toast.error("Book is already added!");
     }
 }
+
 export { getClickedBook, saveBookClicked };
 
 

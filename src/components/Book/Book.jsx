@@ -12,8 +12,8 @@ const Book = ({ book }) => {
                         <figure><img className="w-[140px] h-[190px]" src={image} alt="Book image " /></figure>
                     </div>
                     <div className="flex flex-row justify-around mt-4">
-                        <p className="text-[#23BE0A]">Young Adult</p>
-                        <p className="text-[#23BE0A]">Identity</p>
+                        <p className="text-[#23BE0A]">{tags[0]}</p>
+                        <p className="text-[#23BE0A]">{tags[1]}</p>
                     </div>
                     <div className="card-body">
                         <h2 className="card-title">{bookName}</h2>
@@ -60,5 +60,4 @@ export default Book;
 
 
 
-// book details var
-// const { bookName, author, image, review, totalPages, rating, category, tags, publisherName, yearOfPublishing } = singleBookData || {};
+
