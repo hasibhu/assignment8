@@ -1,0 +1,150 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/XFMPCcq/The-Great-Gatsby.jpg",
+        "review": "Fitzgerald's 'The Great Gatsby' paints a vivid picture of the Jazz Age, with its decadence and disillusionment. Through the eyes of Nick Carraway, readers are drawn into the world of Jay Gatsby and his unattainable dream. The novel's exploration of love, wealth, and the American Dream remains as relevant today as it was in the 1920s.",
+        "totalPages": 180,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Romance"
+        ],
+        "publisherName": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "bookName": "1984.jpg",
+        "author": "George Orwell",
+        "image":"https://i.ibb.co/CsChfN0/1984.jpg",
+        "review": "Orwell's '1984' is a chilling portrayal of a dystopian society ruled by totalitarianism. Winston Smith's struggle for truth and freedom against the oppressive regime of Big Brother resonates with readers worldwide. Through its stark warnings about surveillance, propaganda, and thought control, '1984' remains a timeless cautionary tale about the dangers of unchecked power.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Dystopian",
+            "Political"
+        ],
+        "publisherName": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/YNSCggr/To-Kill-AMockingbird.webp",
+        "review": "Harper Lee's 'To Kill a Mockingbird' is a timeless exploration of racial injustice and moral growth in the American South. Through the eyes of Scout Finch, readers witness the trial of Tom Robinson and the quiet heroism of her father, Atticus. With its powerful message of empathy and understanding, this Pulitzer Prize-winning novel continues to inspire readers of all ages.",
+        "totalPages": 336,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Social Justice"
+        ],
+        "publisherName": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/BgbjRF8/The-Catcherinthe-Rye.jpg",
+        "review": "J.D. Salinger's 'The Catcher in the Rye' is a seminal coming-of-age novel that captures the essence of teenage rebellion and disillusionment. Through the eyes of Holden Caulfield, readers embark on a journey of self-discovery and alienation in the streets of New York City. Salinger's iconic portrayal of adolescence continues to resonate with readers of all generations.",
+        
+        "totalPages": 224,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": [
+            "Coming-of-Age",
+            "Rebellion"
+        ],
+        "publisherName": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co/y4xCDBN/Prideand-Prejudice.jpgx",
+        "review": "Jane Austen's 'Pride and Prejudice' is a timeless romance that deftly combines wit, satire, and social commentary. Through the spirited Elizabeth Bennet and the enigmatic Mr. Darcy, Austen navigates the complexities of class, marriage, and love in Georgian England. With its enduring charm and memorable characters, 'Pride and Prejudice' remains a beloved classic of English literature.",
+        "totalPages": 279,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Satire"
+        ],
+        "publisherName": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/C6DPkmZ/The-Hobbit.jpg",
+        "review": "J.R.R. Tolkien's 'The Hobbit' is a delightful adventure set in the enchanting world of Middle-earth. Through the journey of Bilbo Baggins, readers encounter dwarves, elves, and dragons on a quest to reclaim a lost kingdom. Tolkien's rich imagination and vivid storytelling make 'The Hobbit' a timeless classic that appeals to readers of all ages.",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Quest"
+        ],
+        "publisherName": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "bookName": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "image": "https://i.ibb.co/TBqFHdm/Harry-Potter.jpg",
+        "review": "J.K. Rowling's 'Harry Potter and the Philosopher's Stone' introduces readers to the magical world of Hogwarts and the boy who lived. Through Harry's adventures, Rowling weaves a tale of friendship, courage, and the power of love. With its enchanting characters and captivating storytelling, the Harry Potter series has become a modern classic beloved by readers of all ages.",
+        "totalPages": 223,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Wizardry"
+        ],
+        "publisherName": "Bloomsbury",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/54Jqmdn/The-Lordofthe-Rings.jpg",
+        "review": "J.R.R. Tolkien's 'The Lord of the Rings' is an epic fantasy saga that transports readers to the wondrous world of Middle-earth. Through the journey of Frodo Baggins and the Fellowship, Tolkien explores themes of friendship, sacrifice, and the struggle against darkness. With its intricate world-building and epic scope, 'The Lord of the Rings' is a masterpiece of fantasy literature.",
+        "totalPages": 1178,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Epic",
+            "Adventure"
+        ],
+        "publisherName": "George Allen & Unwin",
+        "yearOfPublishing": 1954
+    },
+    {
+        "bookId": 9,
+        "bookName": "Moby-Dick",
+        "author": "Herman Melville",
+        "image": "https://i.ibb.co/XZHnrcx/Moby-Dick.jpg",
+        "review": "Herman Melville's 'Moby-Dick' is a symbolic odyssey that delves into themes of obsession, fate, and the inscrutable depths of the sea. Captain Ahab's relentless pursuit of the elusive white whale, Moby Dick, becomes a metaphor for humanity's existential quest. With its rich symbolism and philosophical undertones, 'Moby-Dick' continues to fascinate readers with its timeless exploration of the human condition.",
+        "totalPages": 585,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Adventure",
+            "Symbolism"
+        ],
+        "publisherName": "Richard Bentley",
+        "yearOfPublishing": 1851
+    }
+]
+
+
+

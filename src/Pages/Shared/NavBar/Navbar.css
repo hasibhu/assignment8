@@ -1,0 +1,36 @@
+nav {
+    /* background-color: #333; */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav ul li {
+    display: inline;
+} */
+
+nav ul li button {
+    display: inline-block;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 600 ;
+    text-decoration: none;
+    /* color: #fff; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+nav ul li button:hover {
+    background-color: #555;
+}
+
+nav ul li button.active {
+    background-color: #4caf50;
+    /* Change to your preferred active color */
+}
