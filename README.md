@@ -1,4 +1,6 @@
-# React + Vite
+# Wesite name: BookVibe
+# Live link: https://assignment8-three.vercel.app/
+# Major techs have been used in this website - react, javascript, react-dom, localStorage and so on..
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
